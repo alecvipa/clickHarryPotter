@@ -1,0 +1,11 @@
+.container{
+    size: 500%;
+    background-color: darkorchid;
+    height: 49%;
+    display: flexbox;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7KAJpAXzuNU4vrbOj7IP7-51jVyfDrm0E-xgGzcSv-I3VODO0");
+    background-repeat: no-repeat;
+     background-size: 100% 250%;
+     background-position: center;
+    
+}
