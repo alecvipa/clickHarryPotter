@@ -21,23 +21,34 @@ class App extends React.Component {
       if (friend.id === id && friend.isClicked === false){
         friend.isClicked = true;
         this.setState({friends:friends});
+        this.setState({ counter: this.state.counter+1 });
+       
       }else if (friend.id === id && friend.isClicked === true) {
-        alert("You can only click once in the same character!");
         this.setState({ counter: 0 });
+        console.log(this.state.counter);
+        alert("You can only click once in the same character!");
+       
       }
+      // else if(this.state.counter === 11){
+      //   this.setState({ counter: 0 });
+      //   console.log(this.state.counter);
+      //   alert("you won!!")
+      // }
     });
 
     console.log(friends);
   
   };
 
-  MakeScore = () => {
-    
-    this.setState({ counter: this.state.counter+1 });
-    if(this.state.topScore === this.state.counter){
-      this.setState({ counter: this.state.topScore+1 });
-    }
-  };
+  // winningCount = id =>{
+  //   friends.map(friend => {
+  //     if (friend.isClicked === true){
+
+  //       alert("You won!")
+  //     }
+  //   });
+
+  // }
 
 
 
@@ -50,7 +61,7 @@ class App extends React.Component {
           this.state.friends.map(friend => {
             return (<FriendCard
               removeFriend={this.removeFriend}
-              MakeScore={this.MakeScore}
+              makeScore={this.makeScore}
               topScore={this.topScore}
               id={friend.id}
               key={friend.id}
