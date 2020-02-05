@@ -26,7 +26,7 @@ class App extends React.Component {
       }else if (friend.id === id && friend.isClicked === true) {
         this.setState({ counter: 0 });
         console.log(this.state.counter);
-        alert("You can only click once in the same character!");
+        alert("You can only click once in the same character!!");
        
       }
       // else if(this.state.counter === 11){
