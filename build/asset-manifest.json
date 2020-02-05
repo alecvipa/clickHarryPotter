@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/clickHarryPotter/static/css/main.90c2bdfc.chunk.css",
+    "main.js": "/clickHarryPotter/static/js/main.65c4ee87.chunk.js",
+    "main.js.map": "/clickHarryPotter/static/js/main.65c4ee87.chunk.js.map",
+    "runtime-main.js": "/clickHarryPotter/static/js/runtime-main.da82fd06.js",
+    "runtime-main.js.map": "/clickHarryPotter/static/js/runtime-main.da82fd06.js.map",
+    "static/js/2.9a16ac41.chunk.js": "/clickHarryPotter/static/js/2.9a16ac41.chunk.js",
+    "static/js/2.9a16ac41.chunk.js.map": "/clickHarryPotter/static/js/2.9a16ac41.chunk.js.map",
+    "index.html": "/clickHarryPotter/index.html",
+    "precache-manifest.efdc249c06f9e29f508f911d66290c8b.js": "/clickHarryPotter/precache-manifest.efdc249c06f9e29f508f911d66290c8b.js",
+    "service-worker.js": "/clickHarryPotter/service-worker.js",
+    "static/css/main.90c2bdfc.chunk.css.map": "/clickHarryPotter/static/css/main.90c2bdfc.chunk.css.map",
+    "static/js/2.9a16ac41.chunk.js.LICENSE": "/clickHarryPotter/static/js/2.9a16ac41.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da82fd06.js",
+    "static/js/2.9a16ac41.chunk.js",
+    "static/css/main.90c2bdfc.chunk.css",
+    "static/js/main.65c4ee87.chunk.js"
+  ]
+}
